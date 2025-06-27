@@ -296,6 +296,7 @@ void Blowfish_Encrypt(BLOWFISH_CTX* ctx, unsigned long* xl, unsigned long* xr) {
     unsigned long  Xr;
     unsigned long  temp;
     short       i;
+    short       l;
 
     Xl = *xl;
     Xr = *xr;
